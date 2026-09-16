@@ -1,4 +1,4 @@
-const CACHE_NAME = "hopewell-whatsnext-v9";
+const CACHE_NAME = "hopewell-whatsnext-v10";
 const APP_SHELL = [
   "./",
   "./index.html",
