@@ -220,7 +220,7 @@ function overallProgress() {
 // ===================== Router =====================
 function currentRoute() {
   const hash = window.location.hash.replace(/^#\/?/, "");
-  if (!hash) return { screen: "home" };
+  if (!hash) return { screen: "vision" };
   const parts = hash.split("/");
   if (parts[0] === "week" && parts[1]) return { screen: "week", id: parseInt(parts[1], 10) };
   return { screen: parts[0] };
