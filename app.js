@@ -388,8 +388,9 @@ function renderInstallInstructionsCard() {
           <div class="install-tab-label">On iPhone \u2014 must be Safari</div>
             <ol>
             <li>Open this page in <b>Safari</b> (not Chrome or another browser)</li>
-            <li>For iOS 27, tap the three lines lines next to the <b>web address</b> at the bottome of the screen. For iOS 26, tap the <b>Share</b> icon &#8593 at the bottom of the screen</li>
+            <li>For iOS 27, tap the three lines lines next to the <b>web address</b> at the bottome of the screen.</li>
             <li>Tap the <b>Share</b> icon &#8593; that appears</li>
+            <li>For iOS 26, tap the <b>Share</b> icon &#8593 at the bottom of the screen</li>
             <li>Scroll down and tap <b>Add to Home Screen</b></li>
             <li>Tap <b>Add</b> in the top corner</li>
           </ol>
