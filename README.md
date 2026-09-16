@@ -85,3 +85,4 @@ If you'd rather it live at something like `whatsnext.hopewellumc.org`, that's
 a CNAME record in your DNS plus a "Custom domain" entry in the same
 Settings → Pages screen. Not required — the default github.io link works
 fine on its own.
+# whats-next-app-Hopewell
