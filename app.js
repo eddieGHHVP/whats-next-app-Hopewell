@@ -24,7 +24,7 @@ const WEEKS = [
       "Choose one word or phrase from what you wrote and put it on a prayer card in the Chapel or Gathering Place. Our staff and Church Council will be reading these as we listen for what you hope for Hopewell and continue putting the plan into practice.",
       "And sometime this week, pray for them too: for wisdom, courage, and openness to the Spirit as they help lead us into these next five years.",
     ],
-    hopewellCheckLabel: "I prayed for our staff and Council",
+    hopewellCheckLabel: "I prayed daily for our staff and Council",
     why: "A five-year plan gives us a direction. It helps us name what matters and decide where to put our energy. But a plan can\u2019t tell us everything the next five years will hold. So we begin by listening, praying, and remembering that whatever comes next, we want to be a church that follows the Spirit.",
     reflection: "Where are you being invited to trust the Spirit with what comes next?",
   },
