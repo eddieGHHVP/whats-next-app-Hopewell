@@ -15,7 +15,7 @@ const WEEKS = [
       "Right now, I\u2019m wondering what\u2019s next with...",
       "Take a minute to pray about it this week. You don\u2019t need to solve it. Put it in God\u2019s hands and ask, \u201cWhat is mine to do next?\u201d",
     ],
-    youCheckLabel: "I prayed about this",
+    youCheckLabel: "I prayed about this.",
     hopewellHeadline: "What do you hope is true of Hopewell five years from now?",
     hopewellBody: [
       "Over these six weeks, we\u2019ll be looking at the five areas that will guide Hopewell\u2019s next five years: Faith & Connection, Presence & Visibility, Leadership, Generosity & Sustainability, and Mission & Partnership.",
