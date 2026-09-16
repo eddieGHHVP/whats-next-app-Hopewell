@@ -333,7 +333,7 @@ function renderInstallBanner() {
   if (deferredInstallPrompt) {
     actionHtml = `<button class="install-btn" id="install-now-btn">Add to Home Screen</button>`;
   } else if (platform === "ios-safari") {
-    actionHtml = `<div class="install-steps">Tap <b>Share</b> &#8593; at the bottom of Safari, then <b>Add to Home Screen</b>.</div>`;
+    actionHtml = `<div class="install-steps">Tap the <b>web address</b> at the top of Safari, then tap <b>Share</b> &#8593; and choose <b>Add to Home Screen</b>.</div>`;
   } else if (platform === "ios-other-browser") {
     actionHtml = `<div class="install-steps">Open this page in <b>Safari</b> first \u2014 that\u2019s the only iPhone browser that can add it to your Home Screen as a real app.</div>`;
   } else if (platform === "android") {
@@ -386,9 +386,10 @@ function renderInstallInstructionsCard() {
       <div class="install-tabs">
         <div class="install-tab ${platform === "ios-safari" || platform === "other" ? "active-hint" : ""}">
           <div class="install-tab-label">On iPhone \u2014 must be Safari</div>
-          <ol>
+            <ol>
             <li>Open this page in <b>Safari</b> (not Chrome or another browser)</li>
-            <li>Tap the <b>Share</b> icon &#8593; in the toolbar</li>
+            <li>Tap the <b>web address</b> at the top of the screen</li>
+            <li>Tap the <b>Share</b> icon &#8593; that appears</li>
             <li>Scroll down and tap <b>Add to Home Screen</b></li>
             <li>Tap <b>Add</b> in the top corner</li>
           </ol>
@@ -484,9 +485,12 @@ function renderVisionScreen() {
 }
 
 function isPromptLine(text) {
-  // short reflective "fill in" lines end with : or ? and are fairly brief
+  // short reflective "fill in" lines end with :, ... or ? and are fairly brief
   const trimmed = text.trim();
-  return trimmed.length < 70 && (trimmed.endsWith(":") || trimmed.endsWith("?"));
+  return (
+    trimmed.length < 70 &&
+    (trimmed.endsWith(":") || trimmed.endsWith("?") || trimmed.endsWith("..."))
+  );
 }
 
 function renderCalloutBody(bodyArr) {
