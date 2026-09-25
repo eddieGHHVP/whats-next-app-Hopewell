@@ -422,7 +422,7 @@ function renderHomeScreen() {
       <div class="home-kicker">A Six-Week Journey</div>
       <div class="home-title">What's Next</div>
       <div class="home-subtitle">Now What?</div>
-      <div class="home-tagline">A weekly companion for the Hopewell Church congregation</div>
+      <div class="home-tagline">A weekly companion for Hopewell Church</div>
     </div>
   `));
 
